@@ -20,7 +20,7 @@ body {
 .nav-link {
     all:unset;
     margin-right: 1rem;
-    padding: 1rem;
+    padding:0.5rem 1rem;
     border-radius: 23px;
     font-weight: 600;
 }
@@ -47,15 +47,20 @@ body {
 }
 .login_button{
     all:unset;
+    margin: auto;
+    
     margin-right: 1rem;
     color: white;
     background-color: black;
-    padding: 1rem;
+    padding:0.5rem 1rem;
+    border: none;
     border-radius: 23px;
+    text-align: start;
 }
 .login_button:hover {
     cursor: pointer;
     background-color: rgb(105, 105, 105);
+    border: none;
 }
 .iconos {
     font-weight: 700;
