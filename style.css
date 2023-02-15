@@ -68,3 +68,35 @@ body {
     font-size: 1.2rem;
     align-self: end;
 }
+.categories {
+margin-right: 20vw;
+margin-left: 20vw;
+padding-left: 0;
+    display:flex;
+gap: 1rem;
+    justify-content: center;
+
+}
+
+.category-item {
+ 
+   
+    all:unset;
+    font-weight: 600;
+    display:flex;
+    gap: 1rem;
+    flex-grow:1;
+    justify-content: space-between;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.category-item:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.category-text {
+    width: 10ch;
+}
